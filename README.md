@@ -8,6 +8,8 @@ The design rule: **the LLM writes queries and words the answer, but never calcul
 
 All data is synthetic, for a fictional network of 8 primary-care clinics in Doha. This is a tool for operational analytics, not medical advice.
 
+![Ask-the-Data answering an Arabic question about follow-up completion by nationality group, with a bar chart](docs/screenshot.png)
+
 ---
 
 ## How it works
