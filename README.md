@@ -1,5 +1,7 @@
 # Ask-the-Data · اسأل البيانات
 
+[![tests](https://github.com/A7mad8asim/ask-the-data/actions/workflows/tests.yml/badge.svg)](https://github.com/A7mad8asim/ask-the-data/actions/workflows/tests.yml)
+
 **A bilingual (Arabic / English) text-to-SQL assistant for clinic analytics.** Managers ask a question in their own words, for example *"كم كانت نسبة الغياب عن المواعيد في رمضان 2025؟"*, and get a correct, private number back with a chart and the SQL that produced it.
 
 The design rule: **the LLM writes queries and words the answer, but never calculates a number.** Every number comes from the database, every query passes rules enforced in code, and the whole system is measured on a gold set of 100 bilingual questions.
